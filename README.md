@@ -10,24 +10,23 @@ From simple tests to comprehensive applications, every project in this repositor
 
 ## Projects Overview
 
-| Project Name                           |      Description / Learning Focus |
-|--------------|-----------------------------------------------------------------------------------------------------|
-| Android-SearchView-RecyclerView-master        =>              Practiced integrating SearchView with RecyclerView 
-| MyApplication                                 =>              First Android app with basic layouts and activities 
-| MyApplication2                                =>              Learned about fragments and navigation 
-| MyApplication3                                =>              Advanced UI experiments 
-| QRCode                                        =>              Implemented QR code generation and scanning 
-| QuickSwappers                                 =>              Learned about data swapping and RecyclerView adapters |
-| Simple-Android-Multi-Language-Support-master  =>              Practiced multi-language support and resource management |
-| SplashActivity                                =>              Created splash screens and app flow control |
-| TabApp-master                                 =>              Learned about TabLayout and ViewPager |
-| UsageStatsManager-Sample-master               =>              Practiced retrieving app usage statistics |
-| android-AppUsageStatistics-master             =>              Advanced app usage tracking with real data |
-| corona                                        =>              Experimented with APIs and dynamic data display |
-| excel-export-master                           =>              Practiced exporting data to Excel format |
-| forTest                                       =>              Small testing projects to try new Android features |
+| Project Name | Description / Learning Focus |
+|--------------|-----------------------------|
+| Android-SearchView-RecyclerView-master | Practiced integrating SearchView with RecyclerView |
+| MyApplication | First Android app with basic layouts and activities |
+| MyApplication2 | Learned about fragments and navigation |
+| MyApplication3 | Advanced UI experiments |
+| QRCode | Implemented QR code generation and scanning |
+| QuickSwappers | Learned about data swapping and RecyclerView adapters |
+| Simple-Android-Multi-Language-Support-master | Practiced multi-language support and resource management |
+| SplashActivity | Created splash screens and app flow control |
+| TabApp-master | Learned about TabLayout and ViewPager |
+| UsageStatsManager-Sample-master | Practiced retrieving app usage statistics |
+| android-AppUsageStatistics-master | Advanced app usage tracking with real data |
+| corona | Experimented with APIs and dynamic data display |
+| excel-export-master | Practiced exporting data to Excel format |
+| forTest | Small testing projects to try new Android features |
 
----
 
 ## Testimony / Purpose
 
