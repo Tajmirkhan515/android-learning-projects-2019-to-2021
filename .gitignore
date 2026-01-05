@@ -1,9 +1,19 @@
-*.iml
+# Ignore build/generated files
+/build
+**/build/
 .gradle
 /local.properties
 /.idea
-/build
 /captures
 .externalNativeBuild
 .cxx
 .DS_Store
+
+# Ignore IntelliJ/Android Studio files
+*.iml
+
+# Ignore compiled Java/Kotlin files
+*.class
+
+# Ignore APKs
+*.apk

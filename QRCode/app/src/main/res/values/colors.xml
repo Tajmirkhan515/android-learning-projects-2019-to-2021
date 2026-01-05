@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#333333</color>
+    <color name="colorPrimaryDark">#333333</color>
+    <color name="colorAccent">#333333</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#333333</color>
+    <color name="gainsboro">#DCDCDC</color>
+    <color name="lightgrey">#D3D3D3</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="darkgray">#A9A9A9</color>
+    <color name="gray">#808080</color>
+    <color name="dimgray">#696969</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="green">#1ab04e</color>
+    <color name="red">#e94237</color>
+    <color name="chat_bg">#f9f9f9</color>
+    <color name="thirt_percent_transparent">#80333333</color>
+    <color name="light_transparent_border">#80C0C0C0</color>
+    <color name="whoopsbackround">#ebebeb</color>
+    <color name="whooptitlecolor">#919191</color>
+    <color name="bluecolor">#4197d4</color>
+    <color name="redcolor">#FF0000</color>
+    <color name="orange">#ff9501</color>
+    
+    <color name="viewfinder_laser">#ffffff</color>
+    <color name="viewfinder_border">#ffffff</color>
+    <color name="viewfinder_mask">#00ffffff</color>
+
+</resources>

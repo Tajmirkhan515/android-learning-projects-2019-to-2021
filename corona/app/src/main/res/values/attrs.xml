@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ds" >
+        <attr name="textcolor" format="color"/>
+        <attr name="whiteBlackTextColor" format="color"/>
+        <attr name="transparencyColor" format="color"/>
+        <attr name="main_screenColor" format="color"/>
+    </declare-styleable>
+</resources>

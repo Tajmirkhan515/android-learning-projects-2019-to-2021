@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Corona</string>
+    <string name="next">下一个</string>
+
+    <string name="skip">跳跃</string>
+    <string name="start">得到它了</string>
+    <string name="email">email</string>
+
+
+    <string name="duaTitle">保护免受电晕</string>
+    <string name="dua_description">早上读三遍，晚上读三遍</string>
+    <string name="cough">咳嗽</string>
+    <string name="Cough_descri">用袖子或肘子遮住你的嘴</string>
+    <string name="Clean">清洁</string>
+    <string name="Clean_descr">你洗手了吗</string>
+    <string name="Precauti">预防措施</string>
+    <string name="Precauti_descri">我们尝试，真主是保护者，不用担心</string>
+
+
+
+    <string name="welcome">欢迎</string>
+    <string name="welcome_descr">我们想为社区提供帮助</string>
+
+    <string name="helpother">救命</string>
+    <string name="helpother_des">让我们一起解决一个问题</string>
+
+    <string name="doubt">怀疑</string>
+    <string name="doubt_des">我们想避免您的怀疑</string>
+
+    <string name="warning">警告</string>
+    <string name="warning_desc">如果您想在此应用中进行任何修改，意味着希望为社区提供帮助或发现任何故障，则可以通过给定的邮件与开发人员进行交流。</string>
+    <string name="mail">ripplesofter@gmail.com</string>
+    <string name="share">分享</string>
+    <string name="share_descr">请与您的朋友家人分享这个应用程序，每个人都从这场大流行中受教育。</string>
+    <string name="yes">是</string>
+    <string name="no">没有</string>
+    <string name="fever">发热</string>
+    <string name="fever_des">你发烧了吗</string>
+    <string name="flu">流感</string>
+    <string name="flu_desc">你感冒了吗</string>
+    <string name="throut">喉</string>
+    <string name="throut_desc">你喉咙刮了吗？</string>
+    <string name="Cough_desc">你有干咳吗？</string>
+    <string name="vomit">呕吐</string>
+    <string name="vomit_desc">你想呕吐吗？</string>
+    <string name="pandemic">大流行</string>
+    <string name="pandemic_desc">您来自大流行地区吗？</string>
+    <string name="breathing">呼吸</string>
+    <string name="breathing_desc">你呼吸困难吗？</string>
+    <string name="tiredness">疲倦</string>
+    <string name="tiredness_desc">你累了吗？</string>
+    <string name="disease">疾病</string>
+    <string name="disease_desc">你还有其他疾病吗？</string>
+    <string name="age">年龄</string>
+    <string name="age_desc">您的年龄不在5至50岁之间？</string>
+    <string name="day">总天数</string>
+    <string name="day_desc">你患这种病多少天了？</string>
+    <string name="serious">正</string>
+    <string name="serious_desc">您的测试呈阳性，因此您必须去医院，并远离其他人，您需要呼吸机。
+</string>
+    <string name="mild">轻度症状</string>
+    <string name="mild_des">您有轻度症状，需要隔离两个星期</string>
+    <string name="healthy">健康</string>
+    <string name="health_des">请勿怀疑，您身体很健康，请帮助其他人。</string>
+    <string name="waiting">等候</string>
+    <string name="waiting_des">您需要与家人分开，15天后，您将了解自己。</string>
+    <string name="problem">没问题</string>
+    <string name="problem_des">没问题，只待在家里</string>
+    <string name="company">我们是一家软件公司，专注于美丽和受信任的移动应用程序，同时我们也希望开发那些应用程序，其对人类的帮助以及对用户需求和需求的关注。在此Corona应用中，我们为全人类发展，并为不同的文化和国家发展，在此应用中，我们添加了三种语言。而且，我们希望减少医院内部的患者数量，并与其他严重患者以及医生，政府等机构取得帮助，如果您在此应用程序中遇到任何困难，想要进行一些更改或遇到任何错误，请按照以下说明的方式进行交流。 \\ n \\ n与开发者Gmail联系：Tajmirkhan515@gmail.com，\\ n公司Gmail：rippleSofter515@gmail.com</string>
+
+
+    <string-array name="names_array">
+        <item>电晕测试</item>
+        <item>警告</item>
+        <item>路线</item>
+        <item>预测</item>
+        <item>疫苗</item>
+        <item>历史</item>
+
+        <item>关于我们</item>
+        <item>分享</item>
+        <item>评价我们</item>
+        <item>更多应用</item>
+        <item>联系</item>
+        <item>隐私政策</item>
+    </string-array>
+
+
+    // this two is going to good but above not set
+    <string-array name="caution_array">
+        <item>预防措施</item>
+        <item>我们尝试，阿拉是保护者-无需恐惧，并遵循以下指示。</item>
+        <item>呆在家里</item>
+        <item>在家里工作</item>
+        <item>避开人群</item>
+        <item>避免与他人握手</item>
+        <item>不要一起吃饭</item>
+        <item>不要用脏手触摸眼睛，鼻子，嘴巴和脸</item>
+        <item>继续喝水</item>
+        <item>与人交谈时保持两到三英尺远</item>
+        <item>总是思考并做，“我想保护别人”。</item>
+    </string-array>
+
+
+    <string-array name="rout_array">
+    <item>冠状动脉疾病的途径</item>
+    <item>通过闭合接触传播，意味着物理接触。</item>
+    <item>呼吸飞沫</item>
+    <item>握手</item>
+    <item>通过店主</item>
+    <item>通过导体 </item>
+    <item>不呆在家里</item>
+    <item>不洗手</item>
+    <item>虽然抽烟</item>
+    </string-array>
+
+
+    <string-array name="vaccine_array">
+        <item>疫苗</item>
+        <item>病人只是说我不会死于日冕，上帝（真主）会医治我们。</item>
+        <item>目前没有针对这种大流行的疫苗。</item>
+        <item>发展健康的免疫系统</item>
+        <item>每15分钟喝一次水</item>
+        <item>休息和睡觉</item>
+        <item>保持温暖</item>
+    </string-array>
+
+
+    <string-array name="prediction_array">
+
+        <item>美国的预测</item>
+        <item>这是总原因的预测</item>
+        <item>由Sheri Fink发布2020年3月13日更新2020年3月18日
+根据涵盖四种情况范围的预测，在整个流行过程中，美国可能有1.6亿至2.14亿人被感染。专家说，这可能持续数月甚至一年以上，感染集中在较短的时间内，并在不同的社区中跨时间错开。可能有多达20万人至170万人死亡。
+
+而且，根据C.D.C.的情况进行的计算表明，美国可能需要住院240万人至2100万人，这可能会破坏美国的医疗系统，该系统只有大约92.5万名配备职员的病床。其中只有不到十分之一的人是重病患者​​</item>
+    </string-array>
+
+    <string-array name="history_array">
+        <item>历史</item>
+        <item>历史Covid 2019</item>
+        <item>该病毒的名称为COVID-19（新的Corona病毒2019）。
+由于尚未对其进行研究且症状与日冕病毒相似，因此被称为新型日冕病毒。
+这不是一种新病毒，它于2003年首次传播到中国，名称为SARS（严重急性呼吸道综合症）。
+
+
+再次在沙特阿拉伯将其引入骆驼流感。所有这些电晕家族，或电晕的过去历史，
+然后在2019年下半年在武汉市传播了中国。根据内地卫生部门提供的资料，此病的症状包括发烧，焦虑，干咳和呼吸困难。在某些情况下，这是一个严重的状况。大多数老年人或已经患有疾病的老年人都有患上严重疾病的严重风险。
+他们在动物和人类中都被发现。
+
+
+市场上有各种不同类型的动物，其中一些是活的，还有一些死狗，鸡，猪，蛇，香椿等。因此，该病毒与人类密切接触。</item>
+    </string-array>
+</resources>

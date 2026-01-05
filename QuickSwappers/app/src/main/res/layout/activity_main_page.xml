@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.punctualsoft.quickswappers.MainPage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/firstlayout_id"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/tringle_background"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_sign" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageButton2"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:text="Signout"
+                android:textColor="@color/textColor"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/ic_logo" />
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/circleimage_id"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_camera"
+                app:civ_background_color="@color/editBackgroiundColor"
+                app:civ_border="true"
+                app:civ_border_color="@color/textColor"
+                app:civ_border_width="0dp"
+                app:civ_shadow="true"
+                app:civ_shadow_color="#bcc1b5"
+                app:civ_shadow_radius="2" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/firstlayout_id"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <ImageView
+                    android:id="@+id/alert_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/ic_alarm" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/alert_id"
+                    android:layout_centerHorizontal="true"
+                    android:text="Notification"
+                    android:textAlignment="center" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true">
+
+                <ImageView
+                    android:id="@+id/swapper_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/ic_alarm" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/swapper_id"
+                    android:layout_centerHorizontal="true"
+                    android:text="Swappers Zone"
+                    android:textAlignment="center" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true">
+
+                <ImageView
+                    android:id="@+id/chate_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/ic_chate" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/chate_id"
+                    android:layout_centerHorizontal="true"
+                    android:text="Swappers Zone"
+                    android:textAlignment="center" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F7F7F7"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/cate_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categories" />
+
+        <LinearLayout
+            android:id="@+id/onelayout_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cate_id"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:weightSum="4">
+
+            <RelativeLayout
+                android:id="@+id/mobilelayout_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_weight="1">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/mobile_id"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_camera"
+                    app:civ_background_color="@color/editBackgroiundColor"
+                    app:civ_border="true"
+                    app:civ_border_color="@color/textColor"
+                    app:civ_border_width="0dp"
+                    app:civ_shadow_color="@color/textColor"
+                    app:civ_shadow_gravity="end" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mobile_id"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="Mobile" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/fashionlayout_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/mobilelayout_id"
+                android:layout_weight="1">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/fashion_id"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_camera"
+                    app:civ_background_color="@color/editBackgroiundColor"
+                    app:civ_border="true"
+                    app:civ_border_color="@color/textColor"
+                    app:civ_border_width="0dp"
+                    app:civ_shadow_color="@color/textColor"
+                    app:civ_shadow_gravity="end" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/fashion_id"
+                    android:layout_centerHorizontal="true"
+                    android:text="Mobile" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/electroniclayout_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/mobilelayout_id"
+                android:layout_weight="1">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/electronic_id"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_camera"
+                    app:civ_background_color="@color/editBackgroiundColor"
+                    app:civ_border="true"
+                    app:civ_border_color="@color/textColor"
+                    app:civ_border_width="0dp"
+                    app:civ_shadow_color="@color/textColor"
+                    app:civ_shadow_gravity="end" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/electronic_id"
+                    android:layout_centerHorizontal="true"
+                    android:text="Mobile" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/homelayout_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/mobilelayout_id"
+                android:layout_weight="1">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/home_id"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_camera"
+                    app:civ_background_color="@color/editBackgroiundColor"
+                    app:civ_border="true"
+                    app:civ_border_color="@color/textColor"
+                    app:civ_border_width="0dp"
+                    app:civ_shadow_color="@color/textColor"
+                    app:civ_shadow_gravity="end" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/home_id"
+                    android:layout_centerHorizontal="true"
+                    android:text="Mobile" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/secondlayout_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/onelayout_id"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:weightSum="4">
+
+            <RelativeLayout
+                android:id="@+id/applicationlayout_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_weight="1"
+
+                >
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/application_id"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_camera"
+                    app:civ_background_color="@color/editBackgroiundColor"
+                    app:civ_border="true"
+                    app:civ_border_color="@color/textColor"
+                    app:civ_border_width="0dp"
+                    app:civ_shadow_color="@color/textColor"
+                    app:civ_shadow_gravity="end" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/application_id"
+                    android:layout_centerHorizontal="true"
+                    android:text="Mobile" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/beautylayout_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/mobilelayout_id"
+                android:layout_weight="1">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/beauty_id"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_camera"
+                    app:civ_background_color="@color/editBackgroiundColor"
+                    app:civ_border="true"
+                    app:civ_border_color="@color/textColor"
+                    app:civ_border_width="0dp"
+                    app:civ_shadow_color="@color/textColor"
+                    app:civ_shadow_gravity="end" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/beauty_id"
+                    android:layout_centerHorizontal="true"
+                    android:text="Mobile" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/sportslayout_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/mobilelayout_id"
+                android:layout_weight="1">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/sport_id"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_camera"
+                    app:civ_background_color="@color/editBackgroiundColor"
+                    app:civ_border="true"
+                    app:civ_border_color="@color/textColor"
+                    app:civ_border_width="0dp"
+                    app:civ_shadow_color="@color/textColor"
+                    app:civ_shadow_gravity="end" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sport_id"
+                    android:layout_centerHorizontal="true"
+                    android:text="Mobile" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/toyslayout_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/mobilelayout_id"
+                android:layout_weight="1">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/toys_id"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_camera"
+                    app:civ_background_color="@color/editBackgroiundColor"
+                    app:civ_border="true"
+                    app:civ_border_color="@color/textColor"
+                    app:civ_border_width="0dp"
+                    app:civ_shadow_color="@color/textColor"
+                    app:civ_shadow_gravity="end" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/toys_id"
+                    android:layout_centerHorizontal="true"
+                    android:text="Mobile" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/thirdlayout_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/secondlayout_id"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:weightSum="4">
+
+
+            <RelativeLayout
+                android:id="@+id/vahiclelayout_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/mobilelayout_id"
+                android:layout_weight="1">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/vahicale_id"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_camera"
+                    app:civ_background_color="@color/editBackgroiundColor"
+                    app:civ_border="true"
+                    app:civ_border_color="@color/textColor"
+                    app:civ_border_width="0dp"
+                    app:civ_shadow_color="@color/textColor"
+                    app:civ_shadow_gravity="end" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/vahicale_id"
+                    android:layout_centerHorizontal="true"
+                    android:text="Mobile" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/motersyclelayout_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/mobilelayout_id"
+                android:layout_weight="1">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/motersycle_id"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_camera"
+                    app:civ_background_color="@color/editBackgroiundColor"
+                    app:civ_border="true"
+                    app:civ_border_color="@color/textColor"
+                    app:civ_border_width="0dp"
+                    app:civ_shadow_color="@color/textColor"
+                    app:civ_shadow_gravity="end" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/motersycle_id"
+                    android:layout_centerHorizontal="true"
+                    android:text="Mobile" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/propertylayout_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/mobilelayout_id"
+                android:layout_weight="1">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/property_id"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_camera"
+                    app:civ_background_color="@color/editBackgroiundColor"
+                    app:civ_border="true"
+                    app:civ_border_color="@color/textColor"
+                    app:civ_border_width="0dp"
+                    app:civ_shadow_color="@color/textColor"
+                    app:civ_shadow_gravity="end" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/property_id"
+                    android:layout_centerHorizontal="true"
+                    android:text="Mobile" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bottom_background">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:src="@drawable/ic_add"
+            app:backgroundTint="@color/textColor" />
+
+
+    </RelativeLayout>
+</LinearLayout>

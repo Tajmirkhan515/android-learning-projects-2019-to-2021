@@ -1,0 +1,123 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dinosoftlabs.qrandbarcodescanner.Scan.Scan_f">
+
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="80dp"
+      android:id="@+id/toolbar">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@drawable/d_bottom_gray_line">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+     <RelativeLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerInParent="true">
+     <ImageView
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:padding="5dp"
+         android:id="@+id/camerabtn"
+         android:src="@drawable/ic_camera"/>
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="@color/black"
+         android:text="Camera"
+         android:textSize="13dp"
+         android:id="@+id/camera_txt"
+         android:layout_below="@+id/camerabtn"/>
+     </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+     <RelativeLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerInParent="true">
+     <ImageView
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:padding="5dp"
+         android:id="@+id/select_image"
+         android:src="@drawable/ic_select_image" />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="@color/darkgray"
+         android:text="Image"
+         android:textSize="13dp"
+         android:id="@+id/image_txt"
+         android:layout_centerHorizontal="true"
+         android:layout_below="@+id/select_image"/>
+
+     </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+     <RelativeLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerInParent="true">
+     <ImageView
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:padding="5dp"
+         android:layout_centerHorizontal="true"
+         android:id="@+id/flash_light_btn"
+         android:src="@drawable/ic_flash_on"
+         />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="@color/darkgray"
+         android:text="Flash"
+         android:textSize="13dp"
+         android:id="@+id/flaash_txt"
+         android:layout_centerHorizontal="true"
+         android:layout_below="@+id/flash_light_btn"/>
+
+     </RelativeLayout>
+
+    </RelativeLayout>
+
+
+   </LinearLayout>
+
+  </RelativeLayout>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:id="@+id/scan_layout"
+     android:layout_below="@+id/toolbar"
+     android:orientation="horizontal">
+  </LinearLayout>
+
+ </RelativeLayout>
+
+</FrameLayout>

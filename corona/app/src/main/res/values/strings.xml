@@ -1,0 +1,147 @@
+<resources>
+
+    <string name="app_name">Corona</string>
+    <string name="next">NEXT</string>
+
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="email">email</string>
+
+    <string name="duaTitle">Protect from Corona</string>
+    <string name="dua_description">Read this prayer three times in the morning three times in the evening</string>
+    <string name="cough">Cough</string>
+    <string name="Cough_descri">Cover your mouth with sleeve or elbow</string>
+    <string name="Clean">Clean</string>
+    <string name="Clean_descr">Did you wash your hand</string>
+    <string name="Precauti">Precautions</string>
+    <string name="Precauti_descri">we try, Allah is the Protector، no need to fear</string>
+    <string name="welcome">Welcome</string>
+    <string name="welcome_descr">we want to help with a community</string>
+    <string name="helpother">Help</string>
+    <string name="helpother_des">let\'s solve a problem together</string>
+    <string name="doubt">suspicion</string>
+    <string name="doubt_des">we want to avoid your suspicion or Doubt</string>
+    <string name="warning">Warning</string>
+    <string name="warning_desc">if you want to any modification in this app means want to help with community, or found any fault, then you can communicate with developer on the given mail.</string>
+    <string name="mail">ripplesofter@gmail.com</string>
+    <string name="share">Share</string>
+    <string name="share_descr">please share this app with your friend family, Everyone should be educated with this pandemic.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="fever">Fever</string>
+    <string name="fever_des">have you fever?</string>
+    <string name="flu">Flu</string>
+    <string name="flu_desc">have you flu?</string>
+    <string name="throut">Throat</string>
+    <string name="throut_desc">have  you throat scratch?</string>
+    <string name="Cough_desc">have you Dry cough?</string>
+    <string name="vomit">Vomit</string>
+    <string name="vomit_desc">You Want to Vomit?</string>
+    <string name="pandemic">Pandemic</string>
+    <string name="pandemic_desc">have you come from this area where this pandemic?</string>
+    <string name="breathing">Breathing</string>
+    <string name="breathing_desc">Do you have trouble breathing?</string>
+    <string name="tiredness">Tiredness</string>
+    <string name="tiredness_desc">have you tiredness?</string>
+    <string name="disease">Disease</string>
+    <string name="disease_desc">have you any other disease?</string>
+    <string name="age">Age</string>
+    <string name="age_desc">Your Age Not, between 5 And 50 year?</string>
+    <string name="day">Total Days</string>
+    <string name="day_desc">you have these type sick from 5 days?</string>
+    <string name="serious">Positive</string>
+    <string name="serious_desc">Your test is positive and you have to go to the hospital, and stay away from other people, you need a ventilator.
+</string>
+    <string name="mild">Mild Symptom</string>
+    <string name="mild_des">You have Mild Symptom, you need isolate for a two week</string>
+    <string name="healthy">Healthy</string>
+    <string name="health_des">Don\'t Doubt,You are very Healthy, So Please Help other.</string>
+    <string name="waiting">Waiting</string>
+    <string name="waiting_des">You need to be separated from the family, after 15 days you will find out about yourself.</string>
+    <string name="problem">No Problem</string>
+    <string name="problem_des">No Problem, Just stay at home</string>
+    <string name="company">We\'re a software Company, Focused on Beautiful and Trusted mobile application, as well as we want to develop those app, its help with humanity and mostly focused user Requirement and Needs. In this Corona App, we have developed for all humanity, and for different culture And country, In this app we add Three languages. And we want to decrease patient inside the hospital, and help with other serious patient as well as doctors, Government etc, if you feel any difficulty, want to some changes or face any error inside this app So the Below given way you can communicate  .\'\n\'\n  Contact  Developer Gmail: Tajmirkhan515@gmail.com, \'\n Company Gmail: rippleSofter515@gmail.com</string>
+
+
+    <string-array name="names_array">
+        <item>Corona Test</item>
+        <item>Caution</item>
+        <item>Routes</item>
+        <item>Prediction</item>
+        <item>Vaccine</item>
+        <item>History</item>
+
+        <item>About Us</item>
+        <item>Share</item>
+        <item>Rate Us</item>
+        <item>More App</item>
+        <item>Contact</item>
+        <item>Privacy Policy</item>
+    </string-array>
+
+
+    <string-array name="caution_array">
+        <item>Precautions</item>
+        <item>we try, Allah is the Protector، no need to fear, and follow the follwing instructions.</item>
+        <item>stay at home  </item>
+        <item>work from home</item>
+        <item>avoid crowds</item>
+        <item>avoid shaking hands with other</item>
+        <item>Don\'t eat together</item>
+        <item>don\'t touch your eyes,nose, mouth and face with dirty hand</item>
+        <item>Keep drinking water</item>
+        <item>Stay two to three feet away while talking to people</item>
+        <item>always think and do, "i want to protect other".</item>
+    </string-array>
+
+
+    <string-array name="rout_array">
+        <item>rout of corona disease</item>
+        <item>its spread through closed contact, means physical contact.</item>
+        <item>respiratory droplets</item>
+        <item>hand shak</item>
+        <item>through shopkeeper</item>
+        <item>through conductor </item>
+        <item>not stay at home</item>
+        <item>By not washing hands</item>
+        <item>though smoking</item>
+
+    </string-array>
+
+    <string-array name="vaccine_array">
+        <item>vaccine</item>
+        <item>The patient just says that I will not die from corona and And God (Allah) will heal us.</item>
+        <item>There is currently no vaccine for this pandemic.</item>
+        <item>Develop Healthy your immune system</item>
+        <item>Drinking water every 15 minutes</item>
+        <item>rest and sleep</item>
+        <item>keep warm</item>
+    </string-array>
+
+
+    <string-array name="prediction_array">
+        <item>USA prediction</item>
+        <item>this is prediction of Corona total causes</item>
+        <item>By Sheri Fink Published March 13, 2020 Updated March 18, 2020
+Between 160 million and 214 million people in the United States could be infected over the course of the epidemic, according to a projection that encompasses the range of the four scenarios. That could last months or even over a year, with infections concentrated in shorter periods, staggered across time in different communities, experts said. As many as 200,000 to 1.7 million people could die.
+
+And, the calculations based on the C.D.C.’s scenarios suggested, 2.4 million to 21 million people in the United States could require hospitalization, potentially crushing the nation’s medical system, which has only about 925,000 staffed hospital beds. Fewer than a tenth of those are for people who are critically ill.
+</item>
+    </string-array>
+
+    <string-array name="history_array">
+        <item>History</item>
+        <item>History Covid 2019 </item>
+        <item>the name of this virus,COVID-19 (novel Corona virus 2019).
+Because it has not yet been investigated and the symptoms are similar to the corona virus, for this reason it is called novel corona virus.
+This is not a new virus, it first spread to China in 2003, the name was SARS(Severe acute respiratory syndrome).
+
+Again in Saudi Arabia it was introduced to camel flu. these all family of corona, or the past history of corona,
+then in the last of 2019 its spread the china in wuhan city. this virus as also the family of corona, According to information provided by the Mainland Health Authorities, the symptoms of the cases include fever, anxiety, dry cough and difficulty breathing. In some cases, it is a serious condition. Most elderly people, or those who already have a disease, are at serious risk of developing a serious disease.
+.And they are found in both animals and humans.
+
+the wet market available of different types animale and some of them are live and some dead dogs, chickens, pigs, snakes, civets, and more. for this reason the virus make a close contact with human.
+</item>
+    </string-array>
+
+</resources>
